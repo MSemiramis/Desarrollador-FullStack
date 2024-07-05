@@ -1,0 +1,1 @@
+/*Calcula el producto de todos los elementos en una lista. */

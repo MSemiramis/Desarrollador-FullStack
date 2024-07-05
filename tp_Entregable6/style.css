@@ -1,0 +1,99 @@
+
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.verde {
+    width: 150px;
+    height: 100px; 
+    background-color: #54F820;
+    margin: 10px 0;
+}
+
+.gris{
+    width: 100%;
+    height: 100px; 
+    background-color: #CACFD2;
+    margin: 10px;
+}
+
+.nav {
+    width: 99%;
+    height: 50px; 
+    background-color: bisque;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.contenido {
+    display: flex;
+   
+}
+
+.violeta {
+    background-color: violet;
+    width: 250px; 
+    margin-top: 10px; 
+    flex-shrink:0 ;
+    margin-right: 10px;
+}
+
+.derecha {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 10px;
+}
+
+.contenido-der{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px; 
+}
+
+.celeste, .fucsia {
+    flex: 1;
+    margin-right: 10px;
+    
+}
+
+.celeste {
+    background-color: lightblue;
+    height: 170px;
+    width: 150;
+}
+
+.fucsia {
+    background-color: fuchsia;
+    height: 170px;
+    width: 150;
+}
+
+.naranja {
+    background-color: orange;
+    height: 225px;
+    margin-right:10px
+    
+}
+
+.footer {
+    background-color: #20F8F3;
+    height: 90px;
+    width: 99%;
+    margin-top: 10px;
+    border: 1px dashed black;
+ 
+}
