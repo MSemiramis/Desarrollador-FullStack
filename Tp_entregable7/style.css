@@ -46,8 +46,7 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
     background-color: #1ABC9C;
-    transition: background-color 0.3s ease;
-    
+    transition: background-color 0.3s ease;  
 }
 
 .enlace:visited {
@@ -64,8 +63,8 @@ h3,h2{
 }
 
 .destino {
-    display: flex; /* Utiliza flexbox para alinear los elementos internos */
-    align-items: center; /* Alinea verticalmente los elementos internos */
+    display: flex; 
+    align-items: center; 
     margin: 15px 0;
     padding: 15px;
     border: 1px solid #ddd;
@@ -73,33 +72,30 @@ h3,h2{
 }
 
 .destino .imagenes {
-    max-width: 400px; /* Ajusta el ancho máximo de la imagen según sea necesario */
+    max-width: 400px; 
     height: auto;
-    margin-right: 20px; /* Espacio entre la imagen y el contenido de texto */
+    margin-right: 20px; 
     border-radius: 8px;
 }
 
 .destino-content {
-    flex: 1; /* Ocupa todo el espacio disponible */
+    flex: 1; 
 }
 
 .destino h3 {
-    margin: 0; /* Elimina el margen predeterminado para un mejor control de alineación */
-    text-align: center; /* Centra el título horizontalmente */
+    margin: 0; 
+    text-align: center; 
 }
 
 .destino p {
-    margin: 10px; /* Elimina el margen predeterminado */
-    text-align: left; /* Alinea el párrafo a la derecha */
+    margin: 10px; 
+    text-align: left; 
 }
-
 
 .destino:hover {
     background-color: #e0f7fa;
     transition: background-color 0.3s ease;
 }
-
-
 
 footer {
     position: fixed;
