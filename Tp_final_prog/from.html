@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img class="logo" src="img/logo.png" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="producto.html">Productos</a></li>
+                <li><a href="from.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h3>Formulario de contacto</h3>
+
+    <section class="formulario-contenedor">
+        <form class="contacto-form">
+            <div class="dato-from">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="dato-from">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div class="dato-from">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="dato-from">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" pattern="\d{4}-\d{6}" required
+                title="El número de teléfono debe tener el formato: 0228-123456">
+            </div>
+            <div class="dato-from">
+                <label for="consulta">Consulta:</label>
+                <textarea id="consulta" name="consulta" required></textarea>
+            </div>
+            
+            <button type="submit" id="enviar" class="btn-enviar">Enviar</button>
+        </form>
+       
+    </section>
+
+    <footer>
+        <a href="https://www.instagram.com/tresestrellassupermercados/" class="redes">
+            <img src="img/instagram.png" alt="Instagram" class="logosRedes">
+        </a>
+        <a href="https://web.facebook.com/tresestrellasolavarria/?_rdc=1&_rdr" class="redes">
+            <img src="img/face.png" alt="Facebook" class="logosRedes">
+        </a>    
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>       
+    <script src="JS/from.js"></script>
+
+</body>
+</html>

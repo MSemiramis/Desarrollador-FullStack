@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img class="logo" src="img/logo.png" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="producto.html">Productos</a></li>
+                <li><a href="from.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <p id="total" class="total">Total: $0</p>
+    
+    <section class="contenedor-pago">
+        <div>
+            <h4>Metodo de Pago</h4>
+            <form id="metodoDePago">
+                <label>
+                    <input type="radio" name="metodoDePago" value="debito" checked>
+                    Débito
+                </label>
+                <label>
+                    <input type="radio" name="metodoDePago" value="credito">
+                    Crédito (recargo +25% )
+                </label>
+                <label>
+                    <input type="radio" name="metodoDePago" value="efectivo">
+                    Efectivo (10% de descuento)
+                </label>
+            </form>
+        </div>
+    </section>
+    
+    <section>
+         <div class="producto-container">
+            <ul id="lista" class="lista-producto">
+
+            </ul>
+         </div>
+    </section>
+
+    <footer>
+        <a href="https://www.instagram.com/tresestrellassupermercados/" class="redes">
+            <img src="img/instagram.png" alt="Instagram" class="logosRedes">
+        </a>
+        <a href="https://web.facebook.com/tresestrellasolavarria/?_rdc=1&_rdr" class="redes">
+            <img src="img/face.png" alt="Facebook" class="logosRedes">
+        </a>    
+    </footer>
+    <script src="JS/producto.js"></script>
+
+</body>
+</html>
