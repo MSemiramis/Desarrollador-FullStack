@@ -1,7 +1,7 @@
 class Paciente{
 
-    nombre: string;
-    especie: string
+    protected nombre: string;
+    protected especie: string
 
     constructor( nombre: string, especie:string){
         this.nombre = nombre;
